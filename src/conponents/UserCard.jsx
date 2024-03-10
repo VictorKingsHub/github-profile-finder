@@ -12,25 +12,25 @@ function UserCard({ user }) {
             <div className="details">
 
             <a href={`https://github.com/${login}`}>{login} </a>
+            <div>
+                <div>
+                    <span>Public repo: </span>
+                    {public_repos}
+                </div>
+                <div>
+                    <span>Following: </span>
+                    {following}
+                </div>
+                <div>
+                    <span>Followers: </span>
+                    {followers}
+                </div>
+            </div>
             <p>
                 User joined github on {`${createdDate.getDate( )} ${createdDate.toLocaleString("en-us" , {
                     month: "short"
                 })}  ${createdDate.getFullYear()}`}
             </p>
-            <div>
-                <div>
-                    <p>Public repo</p>
-                    {public_repos}
-                </div>
-                <div>
-                    <p>Following</p>
-                    {following}
-                </div>
-                <div>
-                    <p>Followers</p>
-                    {followers}
-                </div>
-            </div>
                 </div>
         </div>
     )
