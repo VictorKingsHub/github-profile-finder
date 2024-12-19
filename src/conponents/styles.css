@@ -146,9 +146,7 @@ a {
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
 }
-.joined {
-  padding: 0.5rem;
-}
+
 .details {
   box-shadow: 0px 0px 9px 0px var(--light_dark);
   -webkit-box-shadow: 0px 0px 9px 0px var(--light_dark);
@@ -161,7 +159,12 @@ a {
   width: 50%;
 
   @media (max-width: 768px) {
-    padding: none;
+    padding: .2rem;
     width: 45%;
   }
+}
+.joined{
+  @media (max-width: 768px) {
+font-size: 0.8rem;  }
+
 }
