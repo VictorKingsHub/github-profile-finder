@@ -30,6 +30,12 @@
   border: 2px solid var(--light);
   border-radius: 15px;
   width: 100%;
+  
+  @media (max-width: 768px) {
+    border: none;
+    padding: none;
+
+  }
 }
 
 .avatar {
