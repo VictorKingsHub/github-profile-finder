@@ -17,8 +17,8 @@
   height: fit-content;
 
   @media (max-width: 768px) {
-    width: 95%;   
-    padding: .7rem; 
+    width: 95vw;   
+    padding: .2rem; 
   }
 }
 .user-card {
