@@ -17,8 +17,8 @@
   height: fit-content;
 
   @media (max-width: 768px) {
-    max-width: 95vw;   
-    padding: .2rem; 
+    max-width: 95vw;
+    padding: 0.2rem;
   }
 }
 .user-card {
@@ -27,11 +27,11 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 2px solid var(--light);
   border-radius: 15px;
   width: 100%;
-  
+
   @media (max-width: 768px) {
     border: none;
     padding: none;
@@ -46,7 +46,7 @@
   align-items: center;
 
   @media (max-width: 768px) {
-   width: 45%;
+    width: 45%;
   }
 }
 img {
@@ -65,7 +65,7 @@ img {
   width: 50%;
 
   @media (max-width: 768px) {
-    width: 95%;    
+    width: 95%;
   }
 }
 .details {
@@ -78,6 +78,11 @@ input {
   border: none;
   padding: 0.7rem;
   min-width: 22vw;
+
+  @media (max-width: 768px) {
+    padding: 0.3rem;
+    width: 50%;
+  }
 }
 
 .input-container {
@@ -93,7 +98,12 @@ button {
   border-bottom-right-radius: 5px;
   color: var(--light);
   padding: 0.5rem 1rem;
+
+  @media (max-width: 768px) {
+    padding: 0.3rem;
+  }
 }
+
 a {
   color: var(--light);
   font-weight: 600;
@@ -115,7 +125,6 @@ a {
 
   @media (max-width: 768px) {
     font-size: 1rem;
-
   }
 }
 .name {
@@ -130,10 +139,9 @@ a {
   border-radius: 0.5rem;
 }
 .joined {
-  
-  padding: 0.5rem;;
+  padding: 0.5rem;
 }
-.details{
+.details {
   box-shadow: 0px 0px 9px 0px var(--light_dark);
   -webkit-box-shadow: 0px 0px 9px 0px var(--light_dark);
   -moz-box-shadow: 0px 0px 9px 0px var(--light_dark);
@@ -143,10 +151,9 @@ a {
   justify-content: center;
   align-items: center;
   width: 50%;
-  
-  @media (max-width:768px) {
+
+  @media (max-width: 768px) {
     padding: none;
     width: 45%;
-    
   }
 }
