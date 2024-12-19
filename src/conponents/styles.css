@@ -35,7 +35,7 @@
   @media (max-width: 768px) {
     border: none;
     padding: none;
-
+    width: 95%;
   }
 }
 
