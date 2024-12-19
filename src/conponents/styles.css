@@ -66,6 +66,7 @@ img {
 
   @media (max-width: 768px) {
     width: fit-content;
+    padding: .2rem;
   }
 }
 .details {
