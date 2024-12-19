@@ -17,7 +17,8 @@
   height: fit-content;
 
   @media (max-width: 768px) {
-    width: 95%;    
+    width: 95%;   
+    padding: .7rem; 
   }
 }
 .user-card {
@@ -43,6 +44,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+   width: 50%;
+  }
 }
 img {
   width: 100%;
@@ -133,4 +138,10 @@ a {
   justify-content: center;
   align-items: center;
   width: 50%;
+  
+  @media (max-width:768px) {
+    padding: none;
+    width: 45%;
+    
+  }
 }
