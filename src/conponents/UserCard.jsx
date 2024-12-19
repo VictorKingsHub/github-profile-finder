@@ -17,7 +17,6 @@ function UserCard ({ user }) {
         <img src={avatar_url} alt='' />
       </div>
       <div className='details'>
-        <div className='text'>
           <a className='name' href={`https://github.com/${login}`}>
             {login}{' '}
           </a>
@@ -41,7 +40,6 @@ function UserCard ({ user }) {
               month: 'short'
             })}  ${createdDate.getFullYear()}`}
           </p>
-        </div>
       </div>
     </div>
   )

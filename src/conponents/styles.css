@@ -17,7 +17,7 @@
   height: fit-content;
 
   @media (max-width: 768px) {
-    width: 95vw;    
+    width: 95%;    
   }
 }
 .user-card {
@@ -33,7 +33,10 @@
 }
 
 .avatar {
-  width: 200px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img {
   width: 100%;
@@ -48,7 +51,11 @@ img {
   border-radius: 15px;
   padding: 1.5rem;
   gap: 10px;
-  width: 400px;
+  width: 50%;
+
+  @media (max-width: 768px) {
+    width: 95%;    
+  }
 }
 .details {
   display: flex;
@@ -110,7 +117,7 @@ a {
   
   padding: 0.5rem;;
 }
-.text{
+.details{
   box-shadow: 0px 0px 9px 0px var(--light_dark);
   -webkit-box-shadow: 0px 0px 9px 0px var(--light_dark);
   -moz-box-shadow: 0px 0px 9px 0px var(--light_dark);
@@ -119,4 +126,5 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
