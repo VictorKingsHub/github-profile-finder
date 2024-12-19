@@ -147,6 +147,10 @@ a {
   margin: 0.3rem;
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+      }
 }
 
 .details {
@@ -167,6 +171,7 @@ a {
 }
 .joined{
   @media (max-width: 768px) {
-font-size: 0.8rem;  }
+font-size: 0.8rem;
+  }
 
 }
